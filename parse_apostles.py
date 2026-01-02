@@ -33,89 +33,95 @@ def parse_date(date_str):
 
     return None
 
+def clean_role_description(text):
+    # Remove "called by ..." and trailing punctuation
+    text = re.sub(r',\s*called by.*', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'\s*called by.*', '', text, flags=re.IGNORECASE)
+
+    # Remove "Positions: " prefix if present
+    if text.startswith("Positions: "):
+        text = text.replace("Positions: ", "", 1)
+
+    return text.strip().strip(',')
+
 def parse_positions(lines):
     roles = []
 
+    # We will accumulate text until we find a date pattern
+    buffer = ""
+
     months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    month_pattern = "|".join(months)
+
+    # We look for the START of the date string in a line
+    date_start_re = re.compile(r'(' + month_pattern + r')\s+\d{1,2},\s+\d{4}\s+\(\d{4}-\d{2}-\d{2}\)')
 
     for line in lines:
         line = line.strip()
         if not line: continue
 
-        start_date = None
-        end_date = None
-        role_desc = None
-
         # Check for future dates to filter hallucinations
         if "2025" in line:
             continue
 
-        if " – " in line or " - " in line:
-            parts = re.split(r' – | - ', line)
-            if len(parts) >= 2:
-                end_part = parts[-1].strip()
-                start_part_candidate = parts[-2].strip()
+        # Check if this line CONTAINS a date start
+        match = date_start_re.search(line)
 
-                if "present" in end_part.lower():
-                    end_date = None
-                else:
-                    end_date = parse_date(end_part)
+        if match:
+            # Found a date!
+            start_index = match.start()
 
-                # Find start date in start_part_candidate
-                last_month_idx = -1
-                for m in months:
-                    idx = start_part_candidate.rfind(m)
-                    if idx > last_month_idx:
-                        last_month_idx = idx
+            # The text BEFORE the date is part of the role
+            pre_date_text = line[:start_index].strip()
+            date_part = line[start_index:].strip()
 
-                if last_month_idx != -1:
-                    date_str = start_part_candidate[last_month_idx:]
-                    start_date = parse_date(date_str)
+            full_desc_raw = (buffer + " " + pre_date_text).strip()
 
-                    prefix = start_part_candidate[:last_month_idx].strip()
-                    if prefix.endswith(','): prefix = prefix[:-1]
-                    role_desc = prefix
-        else:
-            # Handle single date format (Implied present)
-            # e.g., "LDS Church Apostle, called by Gordon B. Hinckley, October 7, 2004"
-            last_month_idx = -1
-            for m in months:
-                idx = line.rfind(m)
-                if idx > last_month_idx:
-                    last_month_idx = idx
+            start_date = None
+            end_date = None
 
-            if last_month_idx != -1:
-                date_str = line[last_month_idx:]
-                start_date = parse_date(date_str)
-                # If we parsed a date at the end of the line, and there's no dash, assume valid start
-                if start_date:
-                    prefix = line[:last_month_idx].strip()
-                    if prefix.endswith(','): prefix = prefix[:-1]
-                    role_desc = prefix
-                    end_date = None
+            # Split by dash
+            parts = re.split(r' – | - ', date_part)
 
-        if start_date:
-            role_type = "Apostle" # Default
-            normalized_role = "Apostle"
+            if len(parts) >= 1:
+                start_str = parts[0].strip()
+                start_date = parse_date(start_str)
 
-            if role_desc:
-                if "President of the Church" in role_desc:
-                    normalized_role = "President"
-                elif "First Counselor" in role_desc:
-                    normalized_role = "First Counselor"
-                elif "Second Counselor" in role_desc:
-                    normalized_role = "Second Counselor"
-                elif "Counselor" in role_desc:
-                    normalized_role = "Counselor"
+                if len(parts) >= 2:
+                    end_str = parts[-1].strip()
+                    if "present" in end_str.lower():
+                        end_date = None
+                    else:
+                        end_date = parse_date(end_str)
 
-            # Normalize "LDS Church Apostle" or "Quorum of the Twelve Apostles" to just Apostle logic
+            # Now process the role
+            clean_role = clean_role_description(full_desc_raw)
+
+            # Determine normalized type
+            normalized_role = "Apostle" # Default
+
+            if "President of the Church" in clean_role:
+                normalized_role = "President"
+            elif "First Counselor" in clean_role:
+                normalized_role = "First Counselor"
+            elif "Second Counselor" in clean_role:
+                normalized_role = "Second Counselor"
+            elif "Counselor" in clean_role:
+                normalized_role = "Counselor"
 
             roles.append({
                 "type": normalized_role,
-                "raw_role": role_desc,
+                "raw_role": clean_role,
                 "startDate": start_date,
                 "endDate": end_date
             })
+
+            # Reset buffer
+            buffer = ""
+
+        else:
+            # No date found, accumulate this line
+            buffer += " " + line
 
     return roles
 
@@ -147,7 +153,13 @@ def main():
         if not entry.strip(): continue
 
         lines = entry.split('\n')
-        name = lines[0].strip()
+        name_line = lines[0].strip()
+
+        # Fix for Name prefix issue
+        # Clean the name of any existing "Name: " prefix first
+        clean_name = name_line.replace("Name: ", "").strip()
+
+        name = "Name: " + clean_name
 
         birth_date = None
         death_date = None
@@ -179,19 +191,13 @@ def main():
             dates.sort()
             ordination_date = dates[0]
 
-        slug = name.lower().replace('.', '').replace(' ', '-')
+        slug = clean_name.lower().replace('.', '').replace(' ', '-')
 
         image_url = link_map.get(image_ref) if image_ref else None
 
-        # Filter out hallucinated future people entirely if they have no valid past roles
-        # Gérald Caussé only has 2025 dates in the text provided
-        has_valid_past_role = False
-        for r in roles:
-            if r['startDate'] and r['startDate'] < "2025-01-01":
-                has_valid_past_role = True
-
-        if not has_valid_past_role and ordination_date and ordination_date >= "2025-01-01":
-             continue
+        # Logic to skip people with NO past roles (optional, but good for cleanliness)
+        if not roles and not ordination_date:
+            continue
 
         people.append({
             "id": slug,
