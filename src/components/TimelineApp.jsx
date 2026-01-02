@@ -6,16 +6,21 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { parseISO, format, isValid } from 'date-fns';
-import { useChurchLeadership, getAllEvents } from '../hooks/useChurchLeadership';
+import { useChurchLeadership, getAllEvents, getEventsOnDate } from '../hooks/useChurchLeadership';
 import { LeadershipVisualizer } from './LeadershipVisualizer';
 
 export const TimelineApp = () => {
     const [currentDate, setCurrentDate] = useState('2024-01-01');
     const [events, setEvents] = useState([]);
+    const [dailyEvents, setDailyEvents] = useState([]);
 
     useEffect(() => {
         setEvents(getAllEvents());
     }, []);
+
+    useEffect(() => {
+        setDailyEvents(getEventsOnDate(currentDate));
+    }, [currentDate]);
 
     const { firstPresidency, quorum } = useChurchLeadership(currentDate);
 
@@ -57,6 +62,21 @@ export const TimelineApp = () => {
             {/* Visualization Area */}
             <Box sx={{ flex: 1, position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <LeadershipVisualizer firstPresidency={firstPresidency} quorum={quorum} />
+            </Box>
+
+            {/* Event Description */}
+            <Box sx={{ p: 2, textAlign: 'center', minHeight: '60px' }}>
+                {dailyEvents.length > 0 ? (
+                    dailyEvents.map((ev, i) => (
+                        <Typography key={i} variant="subtitle1" color="primary" sx={{ fontWeight: 'bold' }}>
+                            {ev}
+                        </Typography>
+                    ))
+                ) : (
+                    <Typography variant="body2" color="text.secondary">
+                        No recorded events on this date
+                    </Typography>
+                )}
             </Box>
 
             {/* Controls */}
