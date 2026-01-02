@@ -9,25 +9,25 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "2018-01-02",
         "endDate": null
       },
       {
-        "type": "Apostle",
-        "raw_role": "Monson",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Thomas S. Monson",
         "startDate": "2008-02-03",
         "endDate": "2018-01-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Gordon B. Hinckley",
         "startDate": "2004-10-02",
         "endDate": "2008-02-03"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Gordon B. Hinckley",
         "startDate": "2004-10-07",
         "endDate": null
       }
@@ -43,13 +43,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Hinckley",
+        "raw_role": "Quorum of the Twelve Apostles, called by Gordon B. Hinckley",
         "startDate": "2004-10-02",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Gordon B. Hinckley",
         "startDate": "2004-10-07",
         "endDate": null
       }
@@ -65,13 +65,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Hinckley",
+        "raw_role": "Quorum of the Twelve Apostles, called by Gordon B. Hinckley",
         "startDate": "2007-10-06",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Gordon B. Hinckley",
         "startDate": "2007-10-11",
         "endDate": null
       }
@@ -87,13 +87,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Monson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Thomas S. Monson",
         "startDate": "2009-04-04",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Thomas S. Monson",
         "startDate": "2009-04-09",
         "endDate": null
       }
@@ -109,13 +109,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Monson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Thomas S. Monson",
         "startDate": "2015-10-03",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Thomas S. Monson",
         "startDate": "2015-10-08",
         "endDate": null
       }
@@ -131,13 +131,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Monson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Thomas S. Monson",
         "startDate": "2015-10-03",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Thomas S. Monson",
         "startDate": "2015-10-08",
         "endDate": null
       }
@@ -153,13 +153,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Monson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Thomas S. Monson",
         "startDate": "2015-10-03",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Thomas S. Monson",
         "startDate": "2015-10-08",
         "endDate": null
       }
@@ -175,13 +175,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "M. Nelson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Russell M. Nelson",
         "startDate": "2018-03-31",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Russell M. Nelson",
         "startDate": "2018-04-05",
         "endDate": null
       }
@@ -197,13 +197,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "M. Nelson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Russell M. Nelson",
         "startDate": "2018-03-31",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Russell M. Nelson",
         "startDate": "2018-04-05",
         "endDate": null
       }
@@ -219,26 +219,17 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "M. Nelson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Russell M. Nelson",
         "startDate": "2023-12-07",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "LDS Church Apostle, called by Russell M. Nelson",
         "startDate": "2023-12-07",
         "endDate": null
       }
     ]
-  },
-  {
-    "id": "g\u00e9rald-causs\u00e9",
-    "name": "G\u00e9rald Causs\u00e9",
-    "birthDate": "1963-05-20",
-    "deathDate": null,
-    "ordinationDate": null,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/G\u00e9rald_Causs\u00e9.jpg/120px-G\u00e9rald_Causs\u00e9.jpg",
-    "roles": []
   },
   {
     "id": "thomas-b-marsh",
@@ -250,13 +241,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1835-04-25",
         "endDate": "1839-03-17"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-04-25",
         "endDate": "1839-03-17"
       }
@@ -272,7 +263,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-15",
         "endDate": "1838-10-25"
       }
@@ -287,20 +278,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Brigham_Young_by_Charles_William_Carter.jpg/120px-Brigham_Young_by_Charles_William_Carter.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "2nd President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1847-12-27",
         "endDate": "1877-08-29"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1840-04-14",
         "endDate": "1847-12-27"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-14",
         "endDate": "1847-12-27"
       }
@@ -315,14 +306,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Heber_Chase_Kimball-2.png/120px-Heber_Chase_Kimball-2.png",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1847-12-27",
         "endDate": "1868-06-22"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-14",
         "endDate": "1847-12-27"
       }
@@ -338,19 +329,19 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1847-12-27",
         "endDate": "1875-04-10"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1839-06-27",
         "endDate": "1878-11-28"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-15",
         "endDate": "1839-05-04"
       }
@@ -366,7 +357,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Witnesses",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-15",
         "endDate": "1838-05-11"
       }
@@ -382,7 +373,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Witnesses",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-21",
         "endDate": "1857-05-13"
       }
@@ -398,7 +389,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-15",
         "endDate": "1837-09-03"
       }
@@ -414,13 +405,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1839-05-25",
         "endDate": "1845-10-06"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-15",
         "endDate": "1839-05-04"
       }
@@ -436,13 +427,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1843-01-20",
         "endDate": "1881-10-03"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-04-26",
         "endDate": "1842-08-20"
       }
@@ -458,7 +449,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-15",
         "endDate": "1837-09-03"
       }
@@ -474,7 +465,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Three Witnesses",
         "startDate": "1835-02-14",
         "endDate": "1837-09-03"
       }
@@ -490,7 +481,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Smith",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1838-12-19",
         "endDate": "1846-02-09"
       }
@@ -505,20 +496,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/John_Taylor_seated_in_chair.jpg/120px-John_Taylor_seated_in_chair.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "3rd President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1880-10-10",
         "endDate": "1887-07-25"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1875-04-10",
         "endDate": "1880-10-10"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1838-12-19",
         "endDate": "1880-10-10"
       }
@@ -533,20 +524,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Wilford_Woodruff_1889.jpg/120px-Wilford_Woodruff_1889.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "4th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1889-04-07",
         "endDate": "1898-09-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1880-10-10",
         "endDate": "1889-04-07"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1839-04-26",
         "endDate": "1889-04-07"
       }
@@ -561,14 +552,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/GeorgeAlbertSmith.jpg/120px-GeorgeAlbertSmith.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1868-10-07",
         "endDate": "1875-09-01"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1839-04-26",
         "endDate": "1868-10-07"
       }
@@ -583,14 +574,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/WillardRichards.jpg/120px-WillardRichards.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1847-12-27",
         "endDate": "1854-03-11"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1840-04-14",
         "endDate": "1847-12-27"
       }
@@ -606,7 +597,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1841-04-08",
         "endDate": "1848-12-03"
       }
@@ -622,19 +613,19 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1845-10-06",
         "endDate": "1867-10-06"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Joseph Smith",
         "startDate": "1843-02-04",
         "endDate": "1844-06-27"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Smith",
         "startDate": "1842-08-20",
         "endDate": "1843-01-20"
       }
@@ -650,7 +641,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Young",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1846-07-16",
         "endDate": "1869-09-03"
       }
@@ -666,7 +657,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Young",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1849-02-12",
         "endDate": "1883-11-17"
       }
@@ -681,38 +672,38 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Lorenzosnow.jpg/120px-Lorenzosnow.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "5th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1898-09-13",
         "endDate": "1901-10-10"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1889-04-07",
         "endDate": "1898-09-13"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1877-08-29",
         "endDate": "1898-09-13"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1874-05-09",
         "endDate": "1877-08-29"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1873-06-08",
         "endDate": "1874-05-09"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1849-02-12",
         "endDate": "1873-06-08"
       }
@@ -728,7 +719,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Young",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1849-02-12",
         "endDate": "1888-05-27"
       }
@@ -744,13 +735,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1898-09-13",
         "endDate": "1899-12-09"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1849-02-12",
         "endDate": "1899-12-09"
       }
@@ -765,50 +756,50 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/George_Q._Cannon_-_Brady-Handy.jpg/120px-George_Q._Cannon_-_Brady-Handy.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Lorenzo Snow",
         "startDate": "1898-09-13",
         "endDate": "1901-04-12"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Woodruff",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Wilford Woodruff",
         "startDate": "1889-04-07",
         "endDate": "1898-09-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1887-07-25",
         "endDate": "1889-04-07"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by John Taylor",
         "startDate": "1880-10-10",
         "endDate": "1887-07-25"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1877-08-29",
         "endDate": "1880-10-10"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Young",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1874-05-09",
         "endDate": "1877-08-29"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1873-06-08",
         "endDate": "1874-05-09"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1860-08-26",
         "endDate": "1873-06-08"
       }
@@ -823,50 +814,50 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/JFS_First_Presidency_1905_large.jpg/120px-JFS_First_Presidency_1905_large.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "6th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1901-10-17",
         "endDate": "1918-11-19"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1901-10-10",
         "endDate": "1901-10-17"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Lorenzo Snow",
         "startDate": "1901-10-06",
         "endDate": "1901-10-10"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Woodruff",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Wilford Woodruff",
         "startDate": "1889-04-07",
         "endDate": "1901-10-06"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1887-07-25",
         "endDate": "1889-04-07"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by John Taylor",
         "startDate": "1880-10-10",
         "endDate": "1887-07-25"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1877-08-29",
         "endDate": "1880-10-10"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1866-07-01",
         "endDate": "1877-08-29"
       }
@@ -882,31 +873,31 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1901-10-17",
         "endDate": "1903-04-11"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1877-08-29",
         "endDate": "1903-04-11"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Young",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1874-05-09",
         "endDate": "1877-08-29"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1873-06-08",
         "endDate": "1874-05-09"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1868-10-09",
         "endDate": "1873-06-08"
       }
@@ -922,25 +913,25 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1877-08-29",
         "endDate": "1885-11-07"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Young",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1874-05-09",
         "endDate": "1877-08-29"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1873-06-08",
         "endDate": "1874-05-09"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Brigham Young",
         "startDate": "1870-07-03",
         "endDate": "1873-06-08"
       }
@@ -956,7 +947,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Taylor",
+        "raw_role": "Quorum of the Twelve Apostles, called by John Taylor",
         "startDate": "1879-04-09",
         "endDate": "1896-04-06"
       }
@@ -972,13 +963,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1903-10-06",
         "endDate": "1916-11-18"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by John Taylor",
         "startDate": "1880-10-27",
         "endDate": "1916-11-18"
       }
@@ -993,14 +984,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/John_Henry_Smith.jpg/120px-John_Henry_Smith.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Joseph F. Smith",
         "startDate": "1910-04-07",
         "endDate": "1911-10-13"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by John Taylor",
         "startDate": "1880-10-27",
         "endDate": "1910-04-07"
       }
@@ -1016,7 +1007,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Taylor",
+        "raw_role": "Quorum of the Twelve Apostles, called by John Taylor",
         "startDate": "1882-10-16",
         "endDate": "1907-06-09"
       }
@@ -1031,20 +1022,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Heber_J_Grant.jpg/120px-Heber_J_Grant.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "7th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1918-11-23",
         "endDate": "1945-05-14"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1916-11-18",
         "endDate": "1918-11-23"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by John Taylor",
         "startDate": "1882-10-16",
         "endDate": "1918-11-23"
       }
@@ -1060,7 +1051,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Taylor",
+        "raw_role": "Quorum of the Twelve Apostles, called by John Taylor",
         "startDate": "1884-05-15",
         "endDate": "1905-01-01"
       }
@@ -1076,7 +1067,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Woodruff",
+        "raw_role": "Quorum of the Twelve Apostles, called by Wilford Woodruff",
         "startDate": "1889-10-07",
         "endDate": "1906-02-06"
       }
@@ -1092,31 +1083,31 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with Rudger Clawson as Acting President)",
         "startDate": "1918-11-23",
         "endDate": "1921-03-02"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Heber J. Grant",
         "startDate": "1918-11-23",
         "endDate": "1921-03-02"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Smith",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Joseph F. Smith",
         "startDate": "1910-04-07",
         "endDate": "1918-11-19"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Joseph F. Smith",
         "startDate": "1901-10-17",
         "endDate": "1910-04-07"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Wilford Woodruff",
         "startDate": "1889-10-07",
         "endDate": "1901-10-17"
       }
@@ -1132,7 +1123,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Woodruff",
+        "raw_role": "Quorum of the Twelve Apostles, called by Wilford Woodruff",
         "startDate": "1889-10-07",
         "endDate": "1896-07-19"
       }
@@ -1148,7 +1139,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Wilford Woodruff",
         "startDate": "1897-10-07",
         "endDate": "1905-10-28"
       }
@@ -1164,7 +1155,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Wilford Woodruff",
         "startDate": "1897-10-07",
         "endDate": "1904-06-20"
       }
@@ -1180,31 +1171,31 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1921-03-17",
         "endDate": "1943-06-21"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles",
         "startDate": "1918-11-23",
         "endDate": "1921-03-17"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1901-10-10",
         "endDate": "1943-06-21"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Snow",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Lorenzo Snow",
         "startDate": "1901-10-06",
         "endDate": "1901-10-10"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Lorenzo Snow",
         "startDate": "1898-10-10",
         "endDate": "1901-10-06"
       }
@@ -1220,7 +1211,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Snow",
+        "raw_role": "Quorum of the Twelve Apostles, called by Lorenzo Snow",
         "startDate": "1900-04-08",
         "endDate": "1941-02-09"
       }
@@ -1236,7 +1227,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Smith",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1901-10-24",
         "endDate": "1918-01-23"
       }
@@ -1251,20 +1242,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/George_Albert_Smith.jpg/120px-George_Albert_Smith.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "8th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1945-05-21",
         "endDate": "1951-04-04"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1943-06-21",
         "endDate": "1945-05-21"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1903-10-08",
         "endDate": "1945-05-21"
       }
@@ -1279,26 +1270,26 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Charleswpenrose.gif/120px-Charleswpenrose.gif",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "10",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Heber J. Grant, 10",
         "startDate": "1921-03-10",
         "endDate": "1925-05-16"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Grant, 23",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Heber J. Grant, 23",
         "startDate": "1918-11-23",
         "endDate": "1921-03-10"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Smith, 7",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Joseph F. Smith, 7",
         "startDate": "1911-12-07",
         "endDate": "1918-11-19"
       },
       {
         "type": "Apostle",
-        "raw_role": "7",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith, 7",
         "startDate": "1904-07-07",
         "endDate": "1911-12-07"
       }
@@ -1314,13 +1305,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1945-05-21",
         "endDate": "1950-08-08"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1906-04-09",
         "endDate": "1950-08-08"
       }
@@ -1336,7 +1327,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Smith",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1906-04-09",
         "endDate": "1931-05-16"
       }
@@ -1351,8 +1342,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/David_O._McKay.jpg/120px-David_O._McKay.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "Latter-day Saints",
+        "type": "President",
+        "raw_role": "9th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1951-04-09",
         "endDate": null
       },
@@ -1364,25 +1355,25 @@
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with Joseph Fielding Smith as Acting President)",
         "startDate": "1950-08-08",
         "endDate": "1951-04-09"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Smith",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by George Albert Smith",
         "startDate": "1945-05-21",
         "endDate": "1951-04-04"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Grant",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Heber J. Grant",
         "startDate": "1934-10-11",
         "endDate": "1945-05-14"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1906-04-09",
         "endDate": "1934-10-11"
       }
@@ -1397,20 +1388,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Anthony_W._Ivins2.jpg/120px-Anthony_W._Ivins2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Heber J. Grant",
         "startDate": "1925-05-25",
         "endDate": "1934-09-23"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Heber J. Grant",
         "startDate": "1921-03-10",
         "endDate": "1925-05-25"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1907-10-06",
         "endDate": "1921-03-10"
       }
@@ -1425,32 +1416,32 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Joseph_Fielding_Smith.jpg/120px-Joseph_Fielding_Smith.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "10th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1970-01-23",
         "endDate": "1972-07-02"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1965-10-29",
         "endDate": "1970-01-18"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1951-04-09",
         "endDate": "1970-01-23"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles",
         "startDate": "1950-08-08",
         "endDate": "1951-04-04"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1910-04-07",
         "endDate": "1970-01-23"
       }
@@ -1466,7 +1457,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Smith, 8",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith, 8",
         "startDate": "1911-12-08",
         "endDate": "1933-07-27"
       }
@@ -1481,14 +1472,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stephen_L_Richards4.jpg/120px-Stephen_L_Richards4.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1951-04-09",
         "endDate": "1959-05-19"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1917-01-18",
         "endDate": "1951-04-09"
       }
@@ -1504,7 +1495,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Smith",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph F. Smith",
         "startDate": "1918-04-07",
         "endDate": "1943-11-12"
       }
@@ -1520,7 +1511,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1919-01-07",
         "endDate": "1939-07-30"
       }
@@ -1536,7 +1527,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant, 17",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant, 17",
         "startDate": "1921-03-17",
         "endDate": "1952-11-29"
       }
@@ -1552,7 +1543,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1931-10-08",
         "endDate": "1952-02-03"
       }
@@ -1568,7 +1559,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1933-10-12",
         "endDate": "1947-01-21"
       }
@@ -1583,38 +1574,38 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/J._Reuben_Clark4.jpg/120px-J._Reuben_Clark4.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1959-06-12",
         "endDate": "1961-10-06"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1951-04-09",
         "endDate": "1959-06-12"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Smith",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by George Albert Smith",
         "startDate": "1945-05-21",
         "endDate": "1951-04-04"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Heber J. Grant",
         "startDate": "1934-10-06",
         "endDate": "1945-05-14"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1934-10-11",
         "endDate": "1934-10-11"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Heber J. Grant",
         "startDate": "1933-04-06",
         "endDate": "1934-10-06"
       }
@@ -1630,7 +1621,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1934-10-11",
         "endDate": "1936-12-22"
       }
@@ -1646,7 +1637,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1937-04-08",
         "endDate": "1953-07-15"
       }
@@ -1662,13 +1653,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1939-10-06",
         "endDate": "1943-05-29"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Associate to the Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1938-04-14",
         "endDate": "1939-10-06"
       }
@@ -1683,26 +1674,26 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Harold_B._Lee2.jpg/120px-Harold_B._Lee2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "11th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1972-07-07",
         "endDate": "1973-12-26"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with Spencer W. Kimball as Acting President)",
         "startDate": "1970-01-23",
         "endDate": "1972-07-07"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Smith",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Joseph Fielding Smith",
         "startDate": "1970-01-23",
         "endDate": "1972-07-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1941-04-10",
         "endDate": "1970-01-23"
       }
@@ -1717,26 +1708,26 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Spencer_W._Kimball3.JPG/120px-Spencer_W._Kimball3.JPG",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "12th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1973-12-30",
         "endDate": "1985-11-05"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1972-07-07",
         "endDate": "1973-12-30"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles",
         "startDate": "1970-01-23",
         "endDate": "1972-07-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1943-10-07",
         "endDate": "1973-12-30"
       }
@@ -1751,20 +1742,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ezra_Taft_Benson.jpg/120px-Ezra_Taft_Benson.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "13th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1985-11-10",
         "endDate": "1994-05-30"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1973-12-30",
         "endDate": "1985-11-10"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1943-10-07",
         "endDate": "1985-11-10"
       }
@@ -1780,7 +1771,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Grant",
+        "raw_role": "Quorum of the Twelve Apostles, called by Heber J. Grant",
         "startDate": "1944-04-20",
         "endDate": "1984-01-11"
       }
@@ -1796,7 +1787,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by George Albert Smith",
         "startDate": "1945-10-11",
         "endDate": "1953-12-13"
       }
@@ -1811,20 +1802,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Henry_D._Moyle2.jpg/120px-Henry_D._Moyle2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1961-10-12",
         "endDate": "1963-09-18"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1959-06-12",
         "endDate": "1961-10-12"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by George Albert Smith",
         "startDate": "1947-04-10",
         "endDate": "1959-06-12"
       }
@@ -1840,7 +1831,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by George Albert Smith",
         "startDate": "1950-10-05",
         "endDate": "1978-08-19"
       }
@@ -1856,31 +1847,31 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with Howard W. Hunter as Acting President)",
         "startDate": "1985-11-10",
         "endDate": "1988-05-20"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1985-11-05",
         "endDate": "1988-05-20"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Kimball",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Spencer W. Kimball",
         "startDate": "1982-12-02",
         "endDate": "1985-11-05"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Lee",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Harold B. Lee",
         "startDate": "1972-07-07",
         "endDate": "1982-12-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1951-10-04",
         "endDate": "1972-07-07"
       }
@@ -1896,7 +1887,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "McKay",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1952-04-06",
         "endDate": "1983-01-11"
       }
@@ -1912,7 +1903,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "McKay",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1953-04-09",
         "endDate": "1958-02-11"
       }
@@ -1928,7 +1919,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "McKay",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1953-10-08",
         "endDate": "1971-11-01"
       }
@@ -1944,7 +1935,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "McKay",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1954-04-08",
         "endDate": "1962-04-23"
       }
@@ -1960,31 +1951,31 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles",
         "startDate": "1970-01-18",
         "endDate": "1975-12-02"
       },
       {
-        "type": "Apostle",
-        "raw_role": "McKay",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1963-10-04",
         "endDate": "1970-01-18"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1961-10-12",
         "endDate": "1963-10-04"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Third Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1961-06-22",
         "endDate": "1961-10-12"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1958-04-10",
         "endDate": "1961-06-22"
       }
@@ -1999,26 +1990,26 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Howard_W._Hunter.JPG/120px-Howard_W._Hunter.JPG",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "14th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1994-06-05",
         "endDate": "1995-03-03"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "1988-05-20",
         "endDate": "1994-06-05"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles",
         "startDate": "1985-11-10",
         "endDate": "1988-05-20"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1959-10-10",
         "endDate": "1994-06-05"
       }
@@ -2033,44 +2024,44 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Gordon_B._Hinckley2.jpg/120px-Gordon_B._Hinckley2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "15th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "1995-03-12",
         "endDate": "2008-01-27"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with Boyd K. Packer as Acting President)",
         "startDate": "1994-06-05",
         "endDate": "1995-03-12"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Hunter",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Howard W. Hunter",
         "startDate": "1994-06-05",
         "endDate": "1995-03-03"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Benson",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Ezra Taft Benson",
         "startDate": "1985-11-10",
         "endDate": "1994-06-05"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Kimball",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Spencer W. Kimball",
         "startDate": "1982-12-02",
         "endDate": "1985-11-05"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Spencer W. Kimball",
         "startDate": "1981-07-23",
         "endDate": "1982-12-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1961-10-05",
         "endDate": "1981-07-23"
       }
@@ -2085,32 +2076,32 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/N._Eldon_Tanner2.jpg/120px-N._Eldon_Tanner2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Spencer W. Kimball",
         "startDate": "1973-12-30",
         "endDate": "1982-11-27"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Harold B. Lee",
         "startDate": "1972-07-07",
         "endDate": "1973-12-26"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Joseph Fielding Smith",
         "startDate": "1970-01-23",
         "endDate": "1972-07-02"
       },
       {
-        "type": "Apostle",
-        "raw_role": "McKay",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1963-10-04",
         "endDate": "1970-01-18"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1962-10-11",
         "endDate": "1963-10-04"
       }
@@ -2125,32 +2116,32 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Thomassmonson.jpg/120px-Thomassmonson.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "16th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "2008-02-03",
         "endDate": "2018-01-02"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with Boyd K. Packer as Acting President)",
         "startDate": "1995-03-12",
         "endDate": "2008-02-03"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Hinckley",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Gordon B. Hinckley",
         "startDate": "1995-03-12",
         "endDate": "2008-01-27"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Benson",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Ezra Taft Benson",
         "startDate": "1985-11-10",
         "endDate": "1995-03-03"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by David O. McKay",
         "startDate": "1963-10-04",
         "endDate": "1985-11-10"
       }
@@ -2166,19 +2157,19 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "2008-02-03",
         "endDate": "2015-07-03"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles",
         "startDate": "1994-06-05",
         "endDate": "2008-01-27"
       },
       {
         "type": "Apostle",
-        "raw_role": "Smith",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Fielding Smith",
         "startDate": "1970-04-06",
         "endDate": "2015-07-03"
       }
@@ -2194,7 +2185,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Joseph Fielding Smith",
         "startDate": "1971-12-02",
         "endDate": "1994-02-25"
       }
@@ -2210,7 +2201,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "B. Lee",
+        "raw_role": "Quorum of the Twelve Apostles, called by Harold B. Lee",
         "startDate": "1972-10-12",
         "endDate": "1985-04-19"
       }
@@ -2226,7 +2217,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "W. Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1974-04-06",
         "endDate": "2015-05-30"
       }
@@ -2242,7 +2233,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "W. Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1976-01-08",
         "endDate": "2004-07-31"
       }
@@ -2257,14 +2248,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/James_E._Faust2.jpg/120px-James_E._Faust2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Gordon B. Hinckley",
         "startDate": "1995-03-12",
         "endDate": "2007-08-10"
       },
       {
         "type": "Apostle",
-        "raw_role": "Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1978-09-30",
         "endDate": "1995-03-12"
       }
@@ -2280,7 +2271,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "W. Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1981-07-23",
         "endDate": "2004-07-21"
       }
@@ -2295,20 +2286,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Russell_M_Nelson_(cropped).jpg/120px-Russell_M_Nelson_(cropped).jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "17th President of the Church of Jesus Christ of Latter-day Saints",
         "startDate": "2018-01-14",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles",
         "startDate": "2015-07-03",
         "endDate": "2018-01-14"
       },
       {
         "type": "Apostle",
-        "raw_role": "Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1984-04-07",
         "endDate": "2018-01-14"
       }
@@ -2323,20 +2314,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Dallin_Harris_Oaks_(cropped).jpg/120px-Dallin_Harris_Oaks_(cropped).jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Russell M. Nelson",
         "startDate": "2018-01-14",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "President of the Quorum of the Twelve Apostles (with M. Russell Ballard, then Jeffrey R. Holland, as Acting President)",
         "startDate": "2018-01-14",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1984-05-03",
         "endDate": "2018-01-14"
       }
@@ -2352,13 +2343,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles, called by Russell M. Nelson",
         "startDate": "2018-01-14",
         "endDate": "2023-11-12"
       },
       {
         "type": "Apostle",
-        "raw_role": "Kimball",
+        "raw_role": "Quorum of the Twelve Apostles, called by Spencer W. Kimball",
         "startDate": "1985-10-06",
         "endDate": "2023-11-12"
       }
@@ -2374,7 +2365,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Ezra Taft Benson",
         "startDate": "1986-10-04",
         "endDate": "2008-12-01"
       }
@@ -2390,7 +2381,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Ezra Taft Benson",
         "startDate": "1988-10-01",
         "endDate": "2015-09-22"
       }
@@ -2406,7 +2397,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "Taft Benson",
+        "raw_role": "Quorum of the Twelve Apostles, called by Ezra Taft Benson",
         "startDate": "1994-04-02",
         "endDate": "2017-10-01"
       }
@@ -2422,13 +2413,13 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Acting President of the Quorum of the Twelve Apostles, called by Russell M. Nelson",
         "startDate": "2023-11-15",
         "endDate": null
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Howard W. Hunter",
         "startDate": "1994-06-23",
         "endDate": null
       }
@@ -2443,26 +2434,26 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Henry_B._Eyring.jpg/120px-Henry_B._Eyring.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Russell M. Nelson",
         "startDate": "2018-01-14",
         "endDate": null
       },
       {
-        "type": "Apostle",
-        "raw_role": "S. Monson",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Thomas S. Monson",
         "startDate": "2008-02-03",
         "endDate": "2018-01-02"
       },
       {
-        "type": "Apostle",
-        "raw_role": "Hinckley",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Gordon B. Hinckley",
         "startDate": "2007-10-06",
         "endDate": "2008-01-27"
       },
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Gordon B. Hinckley",
         "startDate": "1995-04-01",
         "endDate": "2007-10-06"
       }
@@ -2478,7 +2469,7 @@
     "roles": [
       {
         "type": "Apostle",
-        "raw_role": "",
+        "raw_role": "Quorum of the Twelve Apostles, called by Thomas S. Monson",
         "startDate": "2008-04-05",
         "endDate": null
       }
@@ -2493,8 +2484,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Joseph_Smith,_Jr._portrait_owned_by_Joseph_Smith_III.jpg/120px-Joseph_Smith,_Jr._portrait_owned_by_Joseph_Smith_III.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "President",
+        "raw_role": "1st President of the Church of Christ (later the Church of Jesus Christ of Latter Day Saints)",
         "startDate": "1830-04-06",
         "endDate": "1844-06-27"
       }
@@ -2509,8 +2500,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Olivercowdery-sm.jpg/120px-Olivercowdery-sm.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Joseph Smith",
         "startDate": "1837-09-03",
         "endDate": "1838-04-11"
       }
@@ -2525,14 +2516,14 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hyrum_Smith_ca_1880-1920.png/120px-Hyrum_Smith_ca_1880-1920.png",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Joseph Smith",
         "startDate": "1837-11-07",
         "endDate": "1841-01-24"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Joseph Smith",
         "startDate": "1837-09-03",
         "endDate": "1837-11-07"
       }
@@ -2547,8 +2538,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Jedediahmgrant.gif/120px-Jedediahmgrant.gif",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1854-04-07",
         "endDate": "1856-12-01"
       }
@@ -2563,8 +2554,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Daniel_H._Wells2.jpg/120px-Daniel_H._Wells2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "Young",
+        "type": "Second Counselor",
+        "raw_role": "Second Counselor in First Presidency, called by Brigham Young",
         "startDate": "1857-01-04",
         "endDate": "1877-08-29"
       }
@@ -2579,20 +2570,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/John_W_Young.gif/120px-John_W_Young.gif",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "Young",
+        "type": "First Counselor",
+        "raw_role": "First Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1876-10-08",
         "endDate": "1877-08-29"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Assistant Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1874-05-09",
         "endDate": "1876-10-08"
       },
       {
-        "type": "Apostle",
-        "raw_role": "",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by Brigham Young",
         "startDate": "1873-06-08",
         "endDate": "1874-05-09"
       }
@@ -2607,8 +2598,8 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Alvin_R._Dyer2.jpg/120px-Alvin_R._Dyer2.jpg",
     "roles": [
       {
-        "type": "Apostle",
-        "raw_role": "McKay",
+        "type": "Counselor",
+        "raw_role": "Counselor in the First Presidency, called by David O. McKay",
         "startDate": "1968-04-06",
         "endDate": "1970-01-18"
       }
