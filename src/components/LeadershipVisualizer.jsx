@@ -4,6 +4,26 @@ import { Box, Avatar, Typography, Tooltip } from '@mui/material';
 const AVATAR_SIZE = 60;
 const RADIUS = 250;
 
+const PersonTooltip = ({ person, role }) => {
+    const cleanName = person.name.replace(/^(Name: )/, '');
+    return (
+        <Box sx={{ p: 0.5, textAlign: 'left' }}>
+            <Typography variant="subtitle2" sx={{ fontWeight: 'bold', color: 'inherit' }}>
+                {cleanName}
+            </Typography>
+            <Typography variant="caption" display="block" sx={{ fontStyle: 'italic', mb: 1 }}>
+                {role}
+            </Typography>
+            <Typography variant="caption" display="block">
+                <strong>Born:</strong> {person.birthDate || 'Unknown'}
+            </Typography>
+            <Typography variant="caption" display="block">
+                <strong>Ordained:</strong> {person.ordinationDate || 'Unknown'}
+            </Typography>
+        </Box>
+    );
+};
+
 const QuorumMember = ({ person, index, total }) => {
     // Calculate position on the circle
     // Start at -90 degrees (12 o'clock)
@@ -35,7 +55,11 @@ const QuorumMember = ({ person, index, total }) => {
                 zIndex: 10
             }}
         >
-            <Tooltip title={`${person.name} (${index + 1})`}>
+            <Tooltip
+                title={<PersonTooltip person={person} role={`Apostle (${index + 1})`} />}
+                arrow
+                enterTouchDelay={0} // Show immediately on touch
+            >
                 <Box sx={{ textAlign: 'center' }}>
                     <Avatar
                         src={person.imageUrl}
@@ -59,6 +83,8 @@ const QuorumMember = ({ person, index, total }) => {
 };
 
 const FirstPresidencyMember = ({ person, role }) => {
+    const displayRole = role === 'President' ? 'President' : role.replace('Counselor', 'Couns.');
+
     return (
         <motion.div
             layoutId={person.id}
@@ -68,7 +94,11 @@ const FirstPresidencyMember = ({ person, role }) => {
             transition={{ type: 'spring', stiffness: 60, damping: 20 }}
             style={{ margin: '0 15px', zIndex: 20 }}
         >
-            <Tooltip title={`${person.name} - ${role}`}>
+            <Tooltip
+                title={<PersonTooltip person={person} role={role} />}
+                arrow
+                enterTouchDelay={0}
+            >
                 <Box sx={{ textAlign: 'center' }}>
                     <Avatar
                         src={person.imageUrl}
@@ -76,7 +106,7 @@ const FirstPresidencyMember = ({ person, role }) => {
                         sx={{ width: AVATAR_SIZE + 20, height: AVATAR_SIZE + 20, border: '3px solid gold' }}
                     />
                     <Typography variant="caption" sx={{ display: 'block', fontWeight: 'bold' }}>
-                        {role === 'President' ? 'President' : role.replace('Counselor', 'Couns.')}
+                        {displayRole}
                     </Typography>
                     <Typography variant="caption" sx={{ display: 'block', fontSize: '0.7rem' }}>
                         {person.name.replace(/^(Name: )/, '')}

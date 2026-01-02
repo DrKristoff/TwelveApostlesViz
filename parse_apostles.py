@@ -135,8 +135,12 @@ def parse_links(content):
     return link_map
 
 def main():
-    with open('raw_data.txt', 'r') as f:
-        content = f.read()
+    try:
+        with open('raw_data.txt', 'r') as f:
+            content = f.read()
+    except FileNotFoundError:
+        print("[]")
+        return
 
     # Split links section
     parts = re.split(r'\n\s*Name: Links', content)

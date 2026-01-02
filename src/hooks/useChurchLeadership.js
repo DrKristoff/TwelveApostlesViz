@@ -162,3 +162,50 @@ export const getAllEvents = () => {
 
     return Array.from(events).sort();
 };
+
+export const getEventsOnDate = (dateString) => {
+    const events = [];
+
+    apostlesData.forEach(p => {
+        const name = p.name.replace(/^Name: /, '');
+
+        if (p.ordinationDate === dateString) {
+            events.push(`${name} ordained as an Apostle`);
+        }
+        if (p.deathDate === dateString) {
+            events.push(`${name} died`);
+        }
+
+        p.roles.forEach(r => {
+            // Determine role name
+            let roleName = r.type;
+            if (r.type === 'First Counselor') roleName = 'First Counselor in the First Presidency';
+            else if (r.type === 'Second Counselor') roleName = 'Second Counselor in the First Presidency';
+            else if (r.type === 'President') roleName = 'President of the Church';
+            else if (r.type === 'Counselor') roleName = 'Counselor in the First Presidency';
+
+            if (r.startDate === dateString) {
+                // If the role is just "Apostle" and it matches ordination, we skip to avoid dupes?
+                // Actually, often ordination happens same day as setting apart, but usually Ordination is distinct.
+                // However, our data parser sets startDate for 'Apostle' roles too.
+                // Let's filter: if it's "Apostle" and matches ordination date, don't show twice.
+                if (r.type === 'Apostle' && r.startDate === p.ordinationDate) {
+                    // Already covered by ordination check
+                } else {
+                    events.push(`${name} called as ${roleName}`);
+                }
+            }
+
+            if (r.endDate === dateString) {
+                if (r.type === 'President') {
+                    // Usually implies death, but sometimes released? (Rare)
+                    // If deathDate matches, we can skip or show both.
+                    // Let's show both for clarity unless it's redundant.
+                }
+                events.push(`${name} released as ${roleName}`);
+            }
+        });
+    });
+
+    return events;
+};
